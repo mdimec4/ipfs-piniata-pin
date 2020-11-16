@@ -17,7 +17,7 @@ fi
 
 
 CID=$(ipfs add --recursive --quiet --pin=true "$CONTENT_PATH" | tail -n 1)
-if [ "$CID" = "$OLD_CID" ]; then;
+if [ "$CID" = "$OLD_CID" ]; then
 	echo "Old and new CID's are the same!"
 	exit
 fi
