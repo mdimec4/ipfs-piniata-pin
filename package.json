@@ -1,0 +1,9 @@
+{
+	"name": "pin_to_pinata",
+	"version": "1.0.0",
+	"lockfileVersion": 1,
+	"requires": true,
+	"dependencies": {
+		"@pinata/sdk": "^1.1.11"
+	}
+}
