@@ -37,7 +37,7 @@ fs.readFile('pinata_auth.json', (err, data) => {
 			// handle successful pin
 			console.log(cid, "pinned to pinata");
 			if (old_cid !== "") {
-				pinata.unpin(old_cid).then((result) => {i
+				pinata.unpin(old_cid).then((result) => {
 					console.log(cid, "pinned from pinata");
 				}).catch((err) => {
 					console.error(err);
